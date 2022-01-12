@@ -9,4 +9,6 @@ C = (F - 32) * 5/9
 """
 
 def celsius(f):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+  C = f -32
+  C = C * 5
+  return(C/9)
